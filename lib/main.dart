@@ -38,10 +38,7 @@ class MyApp extends StatelessWidget {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      border: Border.all(
-                        width: 3,
-                        color: Colors.orange,
-                      ),
+                      color: Colors.orange,
                     ),
                     child: Card(
                       child: Text(
@@ -56,10 +53,7 @@ class MyApp extends StatelessWidget {
                   const SizedBox(width: 30),
                   Container(
                     decoration: BoxDecoration(
-                      border: Border.all(
-                        width: 3,
-                        color: Colors.red,
-                      ),
+                      color: Colors.red,
                     ),
                     child: Card(
                       child: Text(
@@ -74,13 +68,10 @@ class MyApp extends StatelessWidget {
                   const SizedBox(width: 30),
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.blueGrey,
-                      border: Border.all(
-                        width: 3,
-                        color: Colors.blueGrey.shade300,
-                      ),
+                      color: Colors.blueGrey.shade300,
                     ),
                     child: Card(
+                      color: Colors.blueGrey,
                       child: Text(
                         'Female',
                         style: TextStyle(
@@ -95,7 +86,17 @@ class MyApp extends StatelessWidget {
               const SizedBox(height: 30),
               Row(
                 children: [
-                  const Text('hi'),
+                  Container(
+                    color: Colors.blueAccent,
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.start,
+                      children: [
+                        const Text('hi'),
+                        SizedBox(height: 10),
+                      ],
+                    ),
+                  ),
                   const SizedBox(width: 20),
                   Container(
                     width: 220,
@@ -113,10 +114,7 @@ class MyApp extends StatelessWidget {
                 children: [
                   Container(
                     decoration: BoxDecoration(
-                      border: Border.all(
-                        width: 3,
-                        color: Colors.orange,
-                      ),
+                      color: Colors.orange,
                     ),
                     child: Card(
                       child: Text(
@@ -131,10 +129,7 @@ class MyApp extends StatelessWidget {
                   const SizedBox(width: 30),
                   Container(
                     decoration: BoxDecoration(
-                      border: Border.all(
-                        width: 3,
-                        color: Colors.red,
-                      ),
+                      color: Colors.red,
                     ),
                     child: Card(
                       child: Text(
@@ -149,13 +144,10 @@ class MyApp extends StatelessWidget {
                   const SizedBox(width: 30),
                   Container(
                     decoration: BoxDecoration(
-                      color: Colors.blueGrey,
-                      border: Border.all(
-                        width: 3,
-                        color: Colors.blueGrey.shade300,
-                      ),
+                      color: Colors.blueGrey.shade300,
                     ),
                     child: Card(
+                      color: Colors.blueGrey,
                       child: Text(
                         'Female',
                         style: TextStyle(
